@@ -206,15 +206,16 @@ h3{
 
 @media(max-width:1028px){
 
-    #title{
+    #title h1{
         text-align: center;
     }
     
     .title-image{
-        position: static;
+        position: relative;
         rotate: 0deg;
         width: 60%;
-        text-align: center;
+        left: 50px;
+ 
     }
 }
 
